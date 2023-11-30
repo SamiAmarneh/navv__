@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: calc(100% - 120px);
+    margin: auto;
+
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.active{
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body{
+    height: 44444px;
+}
+
+header{
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px 0; 
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 9; 
+} 
+
+header .logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+header .logo a{
+    font-size: 12px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a{
+    color: #101928;
+    font-size: 10px;
+    
+} 
+
+header .auth-buttons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+header .auth-buttons a{
+    font-size: 12px;
+    padding: 5.354px 30px;
+    border: 0.412px solid #545BE8;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+}
+
+.auth-buttons .login{
+    color: #545BE8;
+}
+
+.auth-buttons .register{
+    background-color: #545BE8;
+    color: #fff;
+}
+
+.testimonials{
+    padding: 40px 0;
+}
+
+.testimonials .row{
+    justify-content: flex-start;
+    gap: 40px;
+}
+.testimonials .user-info{
+    display: flex;
+    gap: 20px;
+}
+
+.testimonials .user-info img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 8.2372px 8.2372px 0px rgba(0, 0, 0, 0.10);
+    position: relative;
+    width: calc(( 100% - 40px ) /2 );
+}
+
+.testimonial::after{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 30px solid #adadad;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    transform: rotate(0deg);
+
+
+}
+
+.testimonials .user-data span{
+    color: #969696;
+}
+
+.testimonial .rating svg{
+    width: 150px;
+    height: 50px;
+}
+
+.testimonials .user-data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer{
+    background-color:#393E46 ;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.footer .row{
+    gap: 40px;
+}
+
+.footer-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .logo img{
+    width: 30px;
+}
+
+.footer a{
+    color: #fff;
+}
+
+.footer .logo a{
+    font-size: 12px;
+}
+
+.footer .icons{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer .icons svg{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff; 
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.footer .footer-right-side{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-right-side , .footer-left-side{
+    width: calc(( 100% - 40px )/2);
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer-item nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
+
